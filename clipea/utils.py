@@ -51,15 +51,4 @@ def get_config_file_with_fallback(
 
 
 def write_to_file(file_path: str, content: AnyStr, mode: str = "w") -> None:
-    """Write to file
-
-    Args:
-        file_path (str)
-        content (AnyStr)
-        mode (str, optional): Defaults to "w".
-
-    Returns:
-        _type_: _description_
-    """
-    with open(file_path, mode, encoding="utf-8") as f:
-        f.write(content)
+    pass
